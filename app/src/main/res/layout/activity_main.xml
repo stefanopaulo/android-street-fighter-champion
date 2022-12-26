@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Street Fighter Champion"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/person1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Balrog"
+            android:textColor="@color/black"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/btnWon1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_weight="1"
+            android:text="Won" />
+
+        <Button
+            android:id="@+id/btnLose1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_weight="1"
+            android:text="Lose" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/person2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ed"
+            android:textColor="@color/black"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/btnWon2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_weight="1"
+            android:text="Won" />
+
+        <Button
+            android:id="@+id/btnLose2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_weight="1"
+            android:text="Lose" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line2"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/person3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bison"
+            android:textColor="@color/black"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/btnWon3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_weight="1"
+            android:text="Won" />
+
+        <Button
+            android:id="@+id/btnLose3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_weight="1"
+            android:text="Lose" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnWhoWon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line3"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="32dp"
+        android:text="WHO WON?" />
+
+
+    <TextView
+        android:id="@+id/textWins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnWhoWon"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="32dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
